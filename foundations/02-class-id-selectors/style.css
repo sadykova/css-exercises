@@ -1,7 +1,10 @@
+* {
+  padding: 5px;
+}
+
 .class-p {
   background-color: pink;
   font-size: 30px;
-  padding: 5px;
 }
 
 .class-p.large-text {
