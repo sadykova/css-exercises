@@ -5,5 +5,16 @@
 }
 
 .class-p.large-text {
-  font-size: 50px;
+  font-size: 45px;
+}
+
+#id-one {
+  color: blue;
+  font-size: 55px;
+}
+
+#id-two {
+  background-color: greenyellow;
+  font-weight: bold;
+  font-size: 40px;
 }
