@@ -1,0 +1,17 @@
+.black,
+.yellow {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  border-color: grey;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
