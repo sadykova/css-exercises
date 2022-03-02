@@ -9,10 +9,10 @@
 }
 
 body {
-  height: 100vh;
-  margin: 0;
   overflow: hidden;
+  height: 100vh;
   font-family: Roboto, sans-serif;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
 }
@@ -21,6 +21,26 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -32,6 +52,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -40,4 +61,13 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #696969;
+}
+
+ul {
+  list-style-type: none;
 }
