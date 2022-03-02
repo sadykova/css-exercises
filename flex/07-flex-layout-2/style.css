@@ -34,11 +34,14 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
-  width: 300px;
   background: royalblue;
+  flex: 0 0 300px;
 }
 
 .card {
