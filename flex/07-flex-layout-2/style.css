@@ -42,10 +42,38 @@ body {
 .sidebar {
   background: royalblue;
   flex: 0 0 300px;
+  padding: 16px;
+}
+
+.cards {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card {
   border: 1px solid #eee;
+  padding: 20px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+  width: 450px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
